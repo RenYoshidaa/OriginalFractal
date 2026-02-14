@@ -3,7 +3,7 @@ void setup() {
   background(0);
   strokeWeight(2);
   translate(width/2, height/2);
-
+ 
   starFractal(120, 4);
 }
 
@@ -26,3 +26,4 @@ void starFractal(float len, int level) {
     rotate(radians(360/branches));
   }
 }
+
